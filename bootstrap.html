@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Flowers</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Product</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            type of flowers
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Roses</a></li>
+            <li><a class="dropdown-item" href="#">Tulips</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sunflowers</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="image-box">
+    <img src="https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvd2VyfGVufDB8fDB8fHww"
+        alt="flower">
+
+    <div class="text">
+        <h2>
+            Flowers are the beautiful, colorful parts of plants that help them produce seeds and reproduce. Flowers are the reproductive structures of flowering plants, also known as angiosperms.
+        </h2>
+    </div>
+</div>
+ 
+<div class="d-flex gap-3">
+
+  <!-- Card 1 -->
+  <div class="card" style="width: 18rem;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8dH-Q7xKzi5kjBOTIhIsJce6CQwaX0za96pUZCaHKMRAudCgAEu1H3RKFeDDVVE443wg4UowkxF1hNi2NMtQ0i1PNhVLa2kp4AfjYPA&s=10"
+    <div class="card-body">
+      <p class="card-text">Flowers are the beautiful reproductive structures of flowering plants.</p>
+      <p class="fw-bold text-danger">Product Name: Sunflower</p>
+      <p class="fw-bold text-danger">Price: $10.99</p>
+      <button class="btn btn-primary">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card" style="width: 18rem;">
+    <img src="https://thumbs.dreamstime.com/b/beautiful-pink-lotus-flower-blooning-beautiful-pink-lotus-flower-blooning-124746087.jpg">
+
+    <div class="card-body">
+      <p class="card-text">The lotus is a beautiful flower thatblooms in water</p>
+      <p class="fw-bold text-danger">Product Name: Lotus</p>
+      <p class="fw-bold text-danger">Price: $20.99</p>
+      <button class="btn btn-primary">Add to Cart</button>
+    </div>
+  </div>
+
+   <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/1256125259/photo/pink-roses-in-garden.jpg?s=612x612&w=0&k=20&c=_Ook5Blxe5_k5g8J3Y8KkUQPO8lo53SGVKWb53F-sPQ=" alt="flower">
+
+    <div class="card-body">
+      <p class="card-text">Roses bloom in many different colors</p>
+      <p class="fw-bold text-danger">Product Name:Rose</p>
+      <p class="fw-bold text-danger">Price: $25.99</p>
+      <img src="image/rose.jpg" class="card-img-top" alt="Rose">
+      <button class="btn btn-primary">Add to Cart</button>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
